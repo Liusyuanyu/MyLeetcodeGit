@@ -52,7 +52,9 @@ public class Main {
 
 //        ImplementFindandminAddToMakeValid();
 
-        ImplementBinaryTreePrune();
+//        ImplementBinaryTreePrune();//
+
+        ImplementAllPathsFromSourcetoTarge();//797
     }
 
 //    public static int FindRepeatNumber(int[] Input){
@@ -108,6 +110,11 @@ public class Main {
 
     public static void ImplementBinaryTreePrune(){
         BinaryTreePruning TestClass = new BinaryTreePruning();
+        TestClass.ImplementFunction();
+    }
+
+    private static void ImplementAllPathsFromSourcetoTarge(){
+        AllPathsFromSourcetoTargetSol TestClass = new AllPathsFromSourcetoTargetSol();
         TestClass.ImplementFunction();
     }
 }
