@@ -52,8 +52,14 @@ public class Main {
 
 //        ImplementFindandminAddToMakeValid();
 
-        ImplementBinaryTreePrune();
+//        ImplementBinaryTreePrune();
+
+//        implementDeleteNodesAndReturnForest();
+
+
+        implementCombinationIterator();
     }
+
 
 //    public static int FindRepeatNumber(int[] Input){
 //        int[] numlist= new int[10000];
@@ -109,5 +115,15 @@ public class Main {
     public static void ImplementBinaryTreePrune(){
         BinaryTreePruning TestClass = new BinaryTreePruning();
         TestClass.ImplementFunction();
+    }
+
+    public static void implementDeleteNodesAndReturnForest(){
+        DeleteNodesAndReturnForest testClass = new DeleteNodesAndReturnForest();
+        testClass.testFun();
+    }
+
+    public static void implementCombinationIterator(){
+        IteratorforCombination testClass = new IteratorforCombination();
+        testClass.ImplementFunction();
     }
 }
